@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+#profile {
+
+    background: hsl(0, 7%, 11%);
+    width: 350px;
+    height: 530px;
+    position: absolute;
+    top: -32%;
+    left: 50%;
+    right: -10;
+    transform: translate(-50%, 50%);
+    border-radius: 10px;
+    display: block;
+    flex-flow: row;
+    align-items: justify;
+    padding: 2rem 3rem;
+    text-align: center;
+    
+}
+.empty{
+
+    padding-top: 1%;
+    padding-left: 8%;
+    
+    background: hsl(0, 0%, 8%);
+    width: 900px;
+    height: 610px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    bottom: -100%;
+    transform: translate(-50%, 50%);
+    border-radius: 10px;
+    display: flex; 
+}
+#textctn{
+    
+}
+
+#textctn p:nth-of-type(1){
+   color: hsl(75, 94%, 57%); 
+font-family: "Inter", serif;
+font-size: 10.1px;
+text-align: center;
+margin-bottom: 1.2rem;
+margin-top: .4rem;
+
+}
+ #textctn > h3{
+    color: white;
+    font-family: "Inter", serif;
+    text-align: center;
+    margin-bottom: 1.2rem;
+    letter-spacing: .1rem;
+}
+#textctn p:nth-of-type(2){
+    color: white;
+    font-family: "Inter", serif;
+    font-size: 10px;
+  text-align: center;
+    margin-bottom: .9rem;
+}
+#textctn ul{
+list-style-type: none;
+text-align: center ;
+border-bottom: 5rems;
+
+}
+
+.vatar{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+margin: .8rem;
+}
+
+/* #img-container img{ */
+    /* display: inline-block; */
+/* } */
+
+button{
+    background: hsl(0, 0%, 20%);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+.git{
+    margin-bottom: .8rem;
+    height: 2.3rem;
+    font-size: 12px;
+}
+
+.tor{
+    margin-bottom: .8rem; 
+    height: 2.3rem;
+    font-size: 12px;
+}
+
+.linkedin{
+    margin-bottom: .8rem;
+    height: 2.3rem;
+    font-size: 12px;
+}
+
+.twit{
+    margin-bottom: .8rem;
+    height: 2.3rem;
+font-size: 12px;
+}
+
+.inst{
+    margin-bottom: .8rem;
+    height: 2.3rem;
+    font-size: 12px;
+}
+
+.fa-github{
+    padding: .3rem;
+}
+.fa-linkedin-in{
+    padding: .3rem;
+}
+.fa-twitter-square{
+    padding: .3rem;
+}
+.fa-instagram{
+    padding: .3rem;
+}
